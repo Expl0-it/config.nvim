@@ -53,7 +53,16 @@ vim.opt.inccommand = 'split'
 -- Show which line your cursor is on
 vim.opt.cursorline = true
 
--- Minimal number of screen lines to keep above and below the cursor.
-vim.opt.scrolloff = 10
+-- Minimal number of screen lines to keep above and below the cursor. (999 - always in the middle)
+vim.opt.scrolloff = 999
+
+-- Set tab to behave as tab not spaces
+vim.opt.expandtab = false
+
+-- Set tab length to x spaces
+vim.opt.tabstop = 4
+
+-- Make relative number default
+vim.wo.relativenumber = true
 
 -- vim: ts=2 sts=2 sw=2 et
