@@ -65,4 +65,12 @@ vim.opt.tabstop = 4
 -- Make relative number default
 vim.wo.relativenumber = true
 
+-- Diagnostics options
+vim.lsp.handlers['textDocument/publishDiagnostics'] = vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, {
+  underline = true,
+  update_in_insert = true,
+  virtual_text = true,
+  signs = true,
+})
+
 -- vim: ts=2 sts=2 sw=2 et
