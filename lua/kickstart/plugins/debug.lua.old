@@ -14,7 +14,7 @@ return {
     -- Creates a beautiful debugger UI
     'rcarriga/nvim-dap-ui',
 
-    -- Required dependency for nvim-dap-ui
+    -- Some dependency needed
     'nvim-neotest/nvim-nio',
 
     -- Installs the debug adapters for you
