@@ -7,7 +7,7 @@
 vim.opt.number = true
 -- You can also add relative line numbers, for help with jumping.
 --  Experiment for yourself to see if you like it!
--- vim.opt.relativenumber = true
+vim.opt.relativenumber = true
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
@@ -61,9 +61,6 @@ vim.opt.expandtab = false
 
 -- Set tab length to x spaces
 vim.opt.tabstop = 4
-
--- Make relative number default
-vim.wo.relativenumber = true
 
 -- Diagnostics options
 vim.lsp.handlers['textDocument/publishDiagnostics'] = vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, {
