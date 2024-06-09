@@ -62,6 +62,9 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor. (999 - always in the middle)
 vim.opt.scrolloff = 999
 
+-- Word wrap at word end, not at the last character fitting the line
+vim.opt.linebreak = true
+
 -- Set tab to behave as tab not spaces
 vim.opt.expandtab = false
 
