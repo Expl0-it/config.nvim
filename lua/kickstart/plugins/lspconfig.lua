@@ -236,6 +236,9 @@ return {
       }
     end,
   },
-}
+},
+
+-- Displays variable names in functions
+vim.lsp.inlay_hint.enable(true, nil)
 
 -- vim: ts=2 sts=2 sw=2 et
