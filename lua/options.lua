@@ -68,6 +68,9 @@ vim.opt.linebreak = true
 -- Set tab to behave as tab not spaces
 vim.opt.expandtab = false
 
+-- Put non expanded tab on Shift + Tab
+vim.keymap.set('i', '<S-Tab>', '<C-V><Tab>')
+
 -- Set tab length to x spaces
 vim.opt.tabstop = 4
 
