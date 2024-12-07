@@ -73,6 +73,7 @@ vim.keymap.set('i', '<S-Tab>', '<C-V><Tab>')
 
 -- Set tab length to x spaces
 vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 
 -- Diagnostics options
 vim.lsp.handlers['textDocument/publishDiagnostics'] = vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, {
